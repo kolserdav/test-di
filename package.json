@@ -1,0 +1,14 @@
+{
+  "name": "test-di",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tsc -p . -w",
+    "build": "tsc -p .",
+    "start": "npm run build && node ${npm_package_main}"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
